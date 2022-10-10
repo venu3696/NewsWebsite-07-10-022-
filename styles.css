@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white
+}
+.web-head{
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.web-head img{
+    width: 50px;
+    height: 50px;
+    margin: 0 30px;
+
+}
+.web-head h1{
+    margin: auto 0;
+}
+.web-head h3{
+
+    float: right;
+}
+
+nav{
+    margin-bottom: 20px;
+    height: 50px;
+}
+a {
+    
+    text-decoration: none;
+    padding: 35px;
+    margin: 5px;
+    color: red;
+}
+.search-container{
+    float: right;
+}
+#input {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 1px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .breaking-news-section{
+    padding: 0 30px 0 60px;
+    display: flex;
+    height: 30px;
+ }
+ #btext{
+    width: 200px;
+    height: 100px;
+    font-size: bold;
+    text-transform: uppercase;
+    color:yellow;
+    font-weight: 600;
+    margin: auto 0;
+    
+ }
+ .breaking-news{
+    padding: 0 30px;
+    color: #fff;
+    font-weight: 800;
+    display: inline-block;
+    margin: auto 0;
+
+ }
+ .breaking-news:hover{
+    cursor: pointer;
+    color: brown ;
+ }
+ .bntime{
+    display: inline-block;
+    color: rgba(red, green, blue, alpha);
+    padding: 0 10px;
+    font-size: 12px;
+
+ }
+ aside{
+    width: 50%;
+    margin-right: 10px;
+    padding-right: 10px;
+    float: right;
+    font-style: normal;
+    background-color: white;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+hr {
+    position: relative;
+    top: 10px;
+    border: none;
+    height: 5px;
+    background: blue;
+    margin-bottom: 50px;
+}
+li{
+    font-size: 18px;
+    cursor: pointer;
+    color:brown;
+    
+}
+.prabhas{
+    width: 600px;
+    height: 500px;
+}
+.entertainment{
+    text-align: left;
+    padding: 20px 30px;
+    text-decoration: underline;
+}
+.business{
+
+    text-decoration: underline;
+    font-size: 25px;
+
+}
+.business1{
+    font-size: 27px;
+}
+footer{
+    background-color: darkslategray;
+    width: 100%;
+    padding: auto 0;
+}
+.copyright{
+    font-size: 25px;
+    text-align: center;
+}
